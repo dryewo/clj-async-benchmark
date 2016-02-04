@@ -8,8 +8,10 @@ When launched from the command line, runs a ring benchmark with specified parame
 1. Install [Leiningen](http://leiningen.org/#install)
 2. Clone the repo
 
-    $ lein uberjar
-    $ java -jar target/async-benchmark.jar <MODE> <ACTORS> <OPERATIONS>
+```
+$ lein uberjar
+$ java -jar target/async-benchmark.jar <MODE> <ACTORS> <OPERATIONS>
+```
 
 ## Options
 
