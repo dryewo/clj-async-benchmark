@@ -15,9 +15,9 @@ $ java -jar target/async-benchmark.jar <MODE> <ACTORS> <OPERATIONS>
 
 ## Options
 
-* <MODE> - either `threads` or `go-blocks`.
-* <ACTORS> - number of actors in the ring. Should be 2 or greated.
-* <OPERATIONS> - number of passes before returning.
+* `<MODE>` - either `threads` or `go-blocks`.
+* `<ACTORS>` - number of actors in the ring. Should be 2 or greated.
+* `<OPERATIONS>` - number of passes before returning.
 
 ## Examples
 
